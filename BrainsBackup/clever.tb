@@ -1,0 +1,6 @@
+Bwhile ( True ) do 
+    shoot(0, 0)
+    drive (40)
+    rotate (360)
+endwhile
+

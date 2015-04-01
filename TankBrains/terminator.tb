@@ -1,0 +1,25 @@
+
+rotate (200)
+
+drive(100)
+
+
+
+talk("hello here")
+
+
+$temp = 200
+
+while ( True ) do 
+
+
+    if ( getspeed() == 0 ) do
+        talk ("Ouch!!!")
+    endif
+
+    $temp = $temp - 1
+endwhile
+
+talk("hello here")
+
+

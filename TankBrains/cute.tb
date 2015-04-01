@@ -1,0 +1,24 @@
+rotate (-350)
+$test = 10            
+drive (100)
+stop()
+shoot (10, 0)
+shoot (10, 30)
+shoot (-20, 40)
+shoot (10, -10)
+shoot (23, 4)
+shoot (-20, -20)
+
+
+
+while ( True ) do
+    
+    shoot(0, 0)
+
+endwhile
+talk("noway")
+shoot (30, 12)
+shoot (40, -22)
+stop()
+shoot (50, 42)
+drive (100)

@@ -1,0 +1,195 @@
+<Comment> {
+  "egg-texture-cards -o explosion2.egg -fps 18 explosion2/ex_00.png explosion2/ex_01.png explosion2/ex_02.png explosion2/ex_03.png explosion2/ex_04.png explosion2/ex_05.png explosion2/ex_06.png explosion2/ex_07.png explosion2/ex_08.png explosion2/ex_09.png explosion2/ex_10.png explosion2/ex_11.png explosion2/ex_12.png explosion2/ex_13.png explosion2/ex_14.png explosion2/ex_15.png explosion2/ex_16.png"
+}
+<Texture> ex_16 {
+  "explosion2/ex_16.png"
+}
+<Texture> ex_15 {
+  "explosion2/ex_15.png"
+}
+<Texture> ex_14 {
+  "explosion2/ex_14.png"
+}
+<Texture> ex_13 {
+  "explosion2/ex_13.png"
+}
+<Texture> ex_12 {
+  "explosion2/ex_12.png"
+}
+<Texture> ex_11 {
+  "explosion2/ex_11.png"
+}
+<Texture> ex_10 {
+  "explosion2/ex_10.png"
+}
+<Texture> ex_09 {
+  "explosion2/ex_09.png"
+}
+<Texture> ex_08 {
+  "explosion2/ex_08.png"
+}
+<Texture> ex_07 {
+  "explosion2/ex_07.png"
+}
+<Texture> ex_06 {
+  "explosion2/ex_06.png"
+}
+<Texture> ex_05 {
+  "explosion2/ex_05.png"
+}
+<Texture> ex_04 {
+  "explosion2/ex_04.png"
+}
+<Texture> ex_03 {
+  "explosion2/ex_03.png"
+}
+<Texture> ex_02 {
+  "explosion2/ex_02.png"
+}
+<Texture> ex_01 {
+  "explosion2/ex_01.png"
+}
+<Texture> ex_00 {
+  "explosion2/ex_00.png"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 18 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> ex_00 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_00 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ex_01 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_01 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ex_02 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_02 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ex_03 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_03 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ex_04 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_04 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ex_05 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_05 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ex_06 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_06 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ex_07 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_07 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ex_08 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_08 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ex_09 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_09 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ex_10 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_10 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ex_11 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_11 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ex_12 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_12 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ex_13 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_13 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ex_14 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_14 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ex_15 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_15 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ex_16 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ex_16 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+rotate (-350)
+$test = 10            
+drive (100)
+stop()
+shoot (0, 0)
+shoot (10, 0)
+talk("noway")
+
+stop()
+shoot (50, 42)
+drive (100)

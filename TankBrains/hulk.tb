@@ -1,0 +1,9 @@
+
+while ( True ) do 
+
+    shoot (10, -20)
+        rotate ( 360 )
+
+endwhile
+
+
